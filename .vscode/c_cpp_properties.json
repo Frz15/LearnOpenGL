@@ -3,10 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}",
-                "${workspaceFolder}/external/KHR",
-                "${workspaceFolder}/external/glad",
-                "${workspaceFolder}/external/GLFW"
+                "${workspaceFolder}"
             ],
             "defines": [
                 "_DEBUG",

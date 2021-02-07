@@ -4,7 +4,7 @@ class Shader{
 
 public:
     Shader();
-    int shaderProgram;
+    int ID;
     int vertexColorLocation;
 
     void useShader();

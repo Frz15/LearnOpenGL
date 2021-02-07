@@ -7,16 +7,10 @@
             "args": [
                 "-g",
                 "${file}",
+                "${fileDirname}\\Shader.cpp",
+                "${fileDirname}\\stb_image.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}",
-                "-I${workspaceFolder}\\external\\glad",
-                "-I${workspaceFolder}",
-                "-I${workspaceFolder}\\external\\KHR",
-                "-I${workspaceFolder}\\external\\GLFW",
-                "-L${workspaceFolder}\\external\\glfw32.dll",
-                "-lglfw3dll",
-                "-lglad",
-                "-lopengl32"
+                "${fileDirname}\\${fileBasenameNoExtension}"
                 // "-D_VSCODE"
             ],
             "options": {
